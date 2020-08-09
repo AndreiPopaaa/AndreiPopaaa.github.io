@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Page Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style3.css" />
+
+  <script src="main.js"></script>
+
+  <!-- Navigation Bar -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="mechanic.html">Mechanic Online</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="tutorial.html">Tutorial</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">
+        Sell your Bike
+      </li>
+    </ol>
+  </nav>
+
+
+</head>
+
+<body style="background-color: black; color: aliceblue;">
+
+  <div class="text" style="display: flex; justify-content: center; justify-content: space-around;">
+
+    <form method="GET">
+      <h3>First Name:<input type="text" name="firstname" placeholder="Andrei" required></h3><br>
+      <h3>Last Name:<input type="text" name="lastname" placeholder="Popa" required></h3><br>
+      <h3>Email:<input type="email" name="e-mail" required="e-mail" required></h3><br>
+      <h3>Phone Number:<input type="text" name="phone" required="numbers" required></h3><br>
+      <h3>What kind of bike do you have?</h3><br>
+      <h3><input type="radio" name="whatkindofbikedoyouhave" value=New>New</h3></br>
+      <h3><input type="radio" name="whatkindofbikedoyouhave" value=New>SecondHand</h3></br>
+
+      <h3>Check what you want to fix:</h3><br>
+      <h3>Brakes<input type="checkbox" name="fix"></h3>
+      <h3>Gears<input type="checkbox" name="fix"></h3>
+      <h3>Front Derailleur<input type="checkbox" name="fix"></h3>
+      <h3>Back Derailleur<input type="checkbox" name="fix"></h3>
+      <h3>Tires<input type="checkbox" name="fix"></h3><br>
+
+      <h3>Chosse your budget!</h3><br>
+      <select>
+        <option value="RON" name="RON" re>RON</option>
+        <option value="100" name="--"> 100</option>
+        <option value="200" name="--"> 200</option>
+        <option value="300" name="--"> 300</option>
+        <option value="400" name="--"> 400</option>
+        <option value="500" name="--"> 500</option>
+      </select><br>
+      <br>
+      <button type="submit">Done!</button>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+/* Titlu deasupra textului */
+h1 {
+  position: absolute;
+  color: white;
+  top: 110px;
+  left: 0px;
+  width: 900px;
+  height: 300px;
+  padding: 15px;
+  font-size: 2.5vw;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  font-family: "Chilanka", cursive;
+  font-size: 1vw;
+  color: aliceblue;
+}
+
+/* Aici am creat o clasa speciala pentru alinierea textului din paragraful p */
+.left {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  border-top: solid aqua;
+  padding: 15px;
+}
+.right {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  right: 150px;
+  top: 200px;
+}
+/* Propietatii la NavBar */
+.breadcrumb {
+  position: absolute;
+  width: 10000px;
+  color: aqua;
+}
+/* Aici am geleria de imagini cu asezarea in pagina */
+.gallery {
+  background-image: url(group.jpg);
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+/* Prima oara cabd am folosit parallex */
+.parallex {
+  background-image: url(bike_blur.jpg);
+
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Propietatiile care se aplica la toate imaginile din galerie */
+img {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

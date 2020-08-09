@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+body {
+  background-image: url(bike.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: red;
+  font-family: "Noto Sans", sans-serif;
+}
+
+span {
+  color: aqua;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flipInX;
+  animation-duration: 3s;
+}
+
+.grid-container {
+  display: flex;
+  height: 50px 50px 50px 50px;
+  border: 10 px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 40px;
+
+  text-align: center;
+  color: rgb(0, 228, 209);
+  justify-items: center;
+  align-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.grid-item {
+  align-items: center;
+  padding: 20 px;
+}
+.btn {
+  background-color: aqua;
+  color: black;
+  font-size: 14px;
+  border-radius: 15%;
+  border: hidden;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.item-3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.fa {
+  justify-content: right;
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background-color: crimson;
+  color: pink;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+p{
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  color: rgb(18, 232, 240);
+}
+
+.align-p{
+  margin-left: 12px;
+  text-align: center;
+}
